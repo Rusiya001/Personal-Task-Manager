@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Complete React coursework",
+    "description": "Build the personal task manager application.",
+    "dueDate": "2026-12-20",
+    "priority": "High",
+    "status": "In Progress"
+  },
+  {
+    "id": 2,
+    "title": "Read lecture notes",
+    "description": "Review the notes about React components.",
+    "dueDate": "2026-12-02",
+    "priority": "Medium",
+    "status": "To Do"
+  },
+  {
+    "id": 3,
+    "title": "Prepare study timetable",
+    "description": "Plan study sessions for this week.",
+    "dueDate": "2026-12-01",
+    "priority": "Low",
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "Practise TypeScript",
+    "description": "Practise interfaces and typed function parameters.",
+    "dueDate": "2026-12-04",
+    "priority": "High",
+    "status": "To Do"
+  },
+  {
+    "id": 5,
+    "title": "Organise project files",
+    "description": "Check the project folders and remove unused assets.",
+    "dueDate": "2026-12-03",
+    "priority": "Low",
+    "status": "To Do"
+  },
+  {
+    "id": 6,
+    "title": "Review Git commands",
+    "description": "Practise checking changes and creating commits.",
+    "dueDate": "2026-12-05",
+    "priority": "Medium",
+    "status": "In Progress"
+  },
+  {
+    "id": 7,
+    "title": "Plan task form",
+    "description": "Decide the form fields and validation rules.",
+    "dueDate": "2026-12-06",
+    "priority": "High",
+    "status": "To Do"
+  },
+  {
+    "id": 8,
+    "title": "Review accessibility notes",
+    "description": "Learn about labels and keyboard navigation.",
+    "dueDate": "2026-12-07",
+    "priority": "Medium",
+    "status": "To Do"
+  },
+  {
+    "id": 9,
+    "title": "Back up coursework",
+    "description": "Commit and push the latest completed changes.",
+    "dueDate": "2026-12-08",
+    "priority": "High",
+    "status": "Completed"
+  },
+  {
+    "id": 10,
+    "title": "Prepare testing checklist",
+    "description": "List the main behaviours that need testing.",
+    "dueDate": "2026-12-09",
+    "priority": "Medium",
+    "status": "To Do"
+  }
+]

@@ -134,4 +134,46 @@ select:focus-visible {
   .hero {
     padding: 24px 0;
   }
+
+  button.button {
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.task-card {
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+}
+
+.task-card h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+
+.task-information {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
+  margin-bottom: 0;
+}
+
+.task-information dt {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.task-information dd {
+  margin: 4px 0 0;
+  color: #4b5565;
+}
 }
