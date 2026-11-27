@@ -71,7 +71,6 @@ The required 250–400-word reflection will be written after implementation.
 
 ChatGPT has been used to interpret the coursework requirements and
 help plan the application.
-
-No application code has been implemented at this stage. This declaration
-will be updated to describe further AI assistance and the approximate
-proportion of submitted code influenced.
+- Got help from ChatGPT to understand how HashRouter works when implementing ReactRouters.
+- Used AI to generate the 10 tasks for the project.
+- There was an error where the tasks did not load therfore used AI to find what the error was.

@@ -1,6 +1,6 @@
 import type {Task} from "../types/Tasks";
 
-const TASKS_URL = '${import.meta.env.BASE_URL}data/tasks.json';
+const TASKS_URL = `${import.meta.env.BASE_URL}data/tasks.json`;
 
 export async function getTasks(): Promise<Task[]> {
     const response = await fetch(TASKS_URL);
