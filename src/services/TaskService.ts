@@ -12,3 +12,9 @@ export async function getTasks(): Promise<Task[]> {
     const tasks : Task[] = await response.json();
     return tasks;
 }
+
+export async function getTaskById(id: number): Promise<Task | undefined> {
+  const tasks = await getTasks();
+
+  return tasks.find((task) => task.id === id);
+}

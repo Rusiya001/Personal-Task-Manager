@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getTasks } from "../services/TaskService";
 import type { Task } from "../types/Tasks";
+import TaskCard from "../components/TaskCard";
 
 function TaskListPage() {
   const [tasks, setTasks] = useState<Task[]>([]);
@@ -70,27 +71,7 @@ function TaskListPage() {
           <ul className="task-list">
             {tasks.map((task) => (
               <li key={task.id}>
-                <article className="task-card">
-                  <h2>{task.title}</h2>
-                  <p>{task.description}</p>
-
-                  <dl className="task-information">
-                    <div>
-                      <dt>Due date</dt>
-                      <dd>{task.dueDate}</dd>
-                    </div>
-
-                    <div>
-                      <dt>Priority</dt>
-                      <dd>{task.priority}</dd>
-                    </div>
-
-                    <div>
-                      <dt>Status</dt>
-                      <dd>{task.status}</dd>
-                    </div>
-                  </dl>
-                </article>
+                <TaskCard task={task} />
               </li>
             ))}
           </ul>
